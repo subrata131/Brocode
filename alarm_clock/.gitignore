@@ -1,0 +1,7 @@
+# Python
+__pycache__/
+*.pyc
+
+# Music files
+*.mp3
+*.wav
