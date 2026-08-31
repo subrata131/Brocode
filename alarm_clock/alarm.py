@@ -4,8 +4,9 @@ import pygame
 
 def set_alarm(alarm_time):
     print(f"Alarm set for {alarm_time}")
-    sound_file1= r"S:\pogramming\python\Brocode\my_music.mp3"
-    sound_file2=r"S:\pogramming\python\Brocode\my_music2.mp3"
+    sound_file1 = "music/my_music.mp3"
+
+    
 
     while True:
         current=datetime.datetime.now().strftime("%H:%M:%S")
