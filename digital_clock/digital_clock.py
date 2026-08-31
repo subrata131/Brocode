@@ -22,7 +22,7 @@ class DigitalClock(QWidget):
         self.time_label.setStyleSheet("""QLabel { font-size:150px;color:hsl(111,100%,50%);}""")
         self.setStyleSheet("""QWidget{background-color:black;}""")
 
-        font_id= QFontDatabase.addApplicationFont(r"S:\pogramming\python\Brocode\DS-DIGIT.TTF")
+        font_id= QFontDatabase.addApplicationFont("fonts/DS-DIGIT.TTF")
 
         font_family=QFontDatabase.applicationFontFamilies(font_id)[0]
         my_font=QFont(font_family,150)
